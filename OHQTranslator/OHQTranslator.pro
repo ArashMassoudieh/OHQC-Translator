@@ -7,49 +7,49 @@ CONFIG -= app_bundle
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-INCLUDEPATH += ../../QAquifolium/aquifolium/include/
-INCLUDEPATH += ../../QAquifolium/aquifolium/include/GA/
-INCLUDEPATH += ../../QAquifolium/aquifolium/src/
+INCLUDEPATH += ../../OpenHydroQual/aquifolium/include/
+INCLUDEPATH += ../../OpenHydroQual/aquifolium/include/GA/
+INCLUDEPATH += ../../OpenHydroQual/aquifolium/src/
 INCLUDEPATH += ../../jsoncpp/include/
 
 SOURCES += \
-        ../../QAquifolium/aquifolium/src/Block.cpp \
-        ../../QAquifolium/aquifolium/src/Command.cpp \
-        ../../QAquifolium/aquifolium/src/Condition.cpp \
-        ../../QAquifolium/aquifolium/src/ErrorHandler.cpp \
-        ../../QAquifolium/aquifolium/src/Expression.cpp \
-        ../../QAquifolium/aquifolium/src/GA/Binary.cpp \
-        ../../QAquifolium/aquifolium/src/GA/Distribution.cpp \
-        ../../QAquifolium/aquifolium/src/GA/DistributionNUnif.cpp \
-        ../../QAquifolium/aquifolium/src/GA/Individual.cpp \
-        ../../QAquifolium/aquifolium/src/Link.cpp \
-        ../../QAquifolium/aquifolium/src/Matrix.cpp \
-        ../../QAquifolium/aquifolium/src/Matrix_arma.cpp \
-        ../../QAquifolium/aquifolium/src/MetaModel.cpp \
-        ../../QAquifolium/aquifolium/src/NormalDist.cpp \
-        ../../QAquifolium/aquifolium/src/Object.cpp \
-        ../../QAquifolium/aquifolium/src/Objective_Function.cpp \
-        ../../QAquifolium/aquifolium/src/Objective_Function_Set.cpp \
-        ../../QAquifolium/aquifolium/src/Parameter.cpp \
-        ../../QAquifolium/aquifolium/src/Parameter_Set.cpp \
-        ../../QAquifolium/aquifolium/src/Precipitation.cpp \
-        ../../QAquifolium/aquifolium/src/Quan.cpp \
-        ../../QAquifolium/aquifolium/src/QuanSet.cpp \
-        ../../QAquifolium/aquifolium/src/QuickSort.cpp \
-        ../../QAquifolium/aquifolium/src/Rule.cpp \
-        ../../QAquifolium/aquifolium/src/RxnParameter.cpp \
-        ../../QAquifolium/aquifolium/src/Script.cpp \
-        ../../QAquifolium/aquifolium/src/Source.cpp \
-        ../../QAquifolium/aquifolium/src/System.cpp \
-        ../../QAquifolium/aquifolium/src/Utilities.cpp \
-        ../../QAquifolium/aquifolium/src/Vector.cpp \
-        ../../QAquifolium/aquifolium/src/Vector_arma.cpp \
-        ../../QAquifolium/aquifolium/src/constituent.cpp \
-        ../../QAquifolium/aquifolium/src/observation.cpp \
-        ../../QAquifolium/aquifolium/src/precalculatedfunction.cpp \
-        ../../QAquifolium/aquifolium/src/reaction.cpp \
-        ../../QAquifolium/aquifolium/src/restorepoint.cpp \
-        ../../QAquifolium/aquifolium/src/solutionlogger.cpp \
+        ../../OpenHydroQual/aquifolium/src/Block.cpp \
+        ../../OpenHydroQual/aquifolium/src/Command.cpp \
+        ../../OpenHydroQual/aquifolium/src/Condition.cpp \
+        ../../OpenHydroQual/aquifolium/src/ErrorHandler.cpp \
+        ../../OpenHydroQual/aquifolium/src/Expression.cpp \
+        ../../OpenHydroQual/aquifolium/src/GA/Binary.cpp \
+        ../../OpenHydroQual/aquifolium/src/GA/Distribution.cpp \
+        ../../OpenHydroQual/aquifolium/src/GA/DistributionNUnif.cpp \
+        ../../OpenHydroQual/aquifolium/src/GA/Individual.cpp \
+        ../../OpenHydroQual/aquifolium/src/Link.cpp \
+        ../../OpenHydroQual/aquifolium/src/Matrix.cpp \
+        ../../OpenHydroQual/aquifolium/src/Matrix_arma.cpp \
+        ../../OpenHydroQual/aquifolium/src/MetaModel.cpp \
+        ../../OpenHydroQual/aquifolium/src/NormalDist.cpp \
+        ../../OpenHydroQual/aquifolium/src/Object.cpp \
+        ../../OpenHydroQual/aquifolium/src/Objective_Function.cpp \
+        ../../OpenHydroQual/aquifolium/src/Objective_Function_Set.cpp \
+        ../../OpenHydroQual/aquifolium/src/Parameter.cpp \
+        ../../OpenHydroQual/aquifolium/src/Parameter_Set.cpp \
+        ../../OpenHydroQual/aquifolium/src/Precipitation.cpp \
+        ../../OpenHydroQual/aquifolium/src/Quan.cpp \
+        ../../OpenHydroQual/aquifolium/src/QuanSet.cpp \
+        ../../OpenHydroQual/aquifolium/src/QuickSort.cpp \
+        ../../OpenHydroQual/aquifolium/src/Rule.cpp \
+        ../../OpenHydroQual/aquifolium/src/RxnParameter.cpp \
+        ../../OpenHydroQual/aquifolium/src/Script.cpp \
+        ../../OpenHydroQual/aquifolium/src/Source.cpp \
+        ../../OpenHydroQual/aquifolium/src/System.cpp \
+        ../../OpenHydroQual/aquifolium/src/Utilities.cpp \
+        ../../OpenHydroQual/aquifolium/src/Vector.cpp \
+        ../../OpenHydroQual/aquifolium/src/Vector_arma.cpp \
+        ../../OpenHydroQual/aquifolium/src/constituent.cpp \
+        ../../OpenHydroQual/aquifolium/src/observation.cpp \
+        ../../OpenHydroQual/aquifolium/src/precalculatedfunction.cpp \
+        ../../OpenHydroQual/aquifolium/src/reaction.cpp \
+        ../../OpenHydroQual/aquifolium/src/restorepoint.cpp \
+        ../../OpenHydroQual/aquifolium/src/solutionlogger.cpp \
         ../../jsoncpp/src/lib_json/json_reader.cpp \
         ../../jsoncpp/src/lib_json/json_value.cpp \
         ../../jsoncpp/src/lib_json/json_writer.cpp \
@@ -85,30 +85,30 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    ../../QAquifolium/aquifolium/include/Block.h \
-    ../../QAquifolium/aquifolium/include/Condition.h \
-    ../../QAquifolium/aquifolium/include/Expression.h \
-    ../../QAquifolium/aquifolium/include/GA/GA.hpp \
-    ../../QAquifolium/aquifolium/include/Link.h \
-    ../../QAquifolium/aquifolium/include/Matrix.h \
-    ../../QAquifolium/aquifolium/include/Matrix_arma.h \
-    ../../QAquifolium/aquifolium/include/MetaModel.h \
-    ../../QAquifolium/aquifolium/include/Object.h \
-    ../../QAquifolium/aquifolium/include/Parameter.h \
-    ../../QAquifolium/aquifolium/include/Precipitation.h \
-    ../../QAquifolium/aquifolium/include/Quan.h \
-    ../../QAquifolium/aquifolium/include/QuanSet.h \
-    ../../QAquifolium/aquifolium/include/RxnParameter.h \
-    ../../QAquifolium/aquifolium/include/Source.h \
-    ../../QAquifolium/aquifolium/include/System.h \
-    ../../QAquifolium/aquifolium/include/Vector.h \
-    ../../QAquifolium/aquifolium/include/Vector_arma.h \
-    ../../QAquifolium/aquifolium/include/constituent.h \
-    ../../QAquifolium/aquifolium/include/observation.h \
-    ../../QAquifolium/aquifolium/include/precalculatedfunction.h \
-    ../../QAquifolium/aquifolium/include/reaction.h \
-    ../../QAquifolium/aquifolium/src/BTC.hpp \
-    ../../QAquifolium/aquifolium/src/BTCSet.hpp
+    ../../OpenHydroQual/aquifolium/include/Block.h \
+    ../../OpenHydroQual/aquifolium/include/Condition.h \
+    ../../OpenHydroQual/aquifolium/include/Expression.h \
+    ../../OpenHydroQual/aquifolium/include/GA/GA.hpp \
+    ../../OpenHydroQual/aquifolium/include/Link.h \
+    ../../OpenHydroQual/aquifolium/include/Matrix.h \
+    ../../OpenHydroQual/aquifolium/include/Matrix_arma.h \
+    ../../OpenHydroQual/aquifolium/include/MetaModel.h \
+    ../../OpenHydroQual/aquifolium/include/Object.h \
+    ../../OpenHydroQual/aquifolium/include/Parameter.h \
+    ../../OpenHydroQual/aquifolium/include/Precipitation.h \
+    ../../OpenHydroQual/aquifolium/include/Quan.h \
+    ../../OpenHydroQual/aquifolium/include/QuanSet.h \
+    ../../OpenHydroQual/aquifolium/include/RxnParameter.h \
+    ../../OpenHydroQual/aquifolium/include/Source.h \
+    ../../OpenHydroQual/aquifolium/include/System.h \
+    ../../OpenHydroQual/aquifolium/include/Vector.h \
+    ../../OpenHydroQual/aquifolium/include/Vector_arma.h \
+    ../../OpenHydroQual/aquifolium/include/constituent.h \
+    ../../OpenHydroQual/aquifolium/include/observation.h \
+    ../../OpenHydroQual/aquifolium/include/precalculatedfunction.h \
+    ../../OpenHydroQual/aquifolium/include/reaction.h \
+    ../../OpenHydroQual/aquifolium/src/BTC.hpp \
+    ../../OpenHydroQual/aquifolium/src/BTCSet.hpp
 
 
 win32 {
